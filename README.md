@@ -18,3 +18,9 @@ Para ejecutar ansible luego de realizar la configuracion de roles y tasks
 ```sh
 ansible-playbook -i inventory.ini platzigram.yml --key-file ssh/deploy
 ```
+
+## Creating sshkeys
+
+```sh
+	ssh-keygen -t rsa
+```

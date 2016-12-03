@@ -5,3 +5,16 @@
       apt: update_cache=yes
   roles:
     - platzigram
+  vars:
+    - projects:
+      - platzigram-db
+      - platzigram-client
+      - platzigram-api
+      - platzigram-ws
+      - platzigram
+    - services:
+      - platzigram-api-pictures
+      - platzigram-api-users
+      - platzigram-api-auth
+      - platzigram-ws
+      - platzigram
